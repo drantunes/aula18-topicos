@@ -1,0 +1,30 @@
+@import "~vue-material/dist/vue-material.css";
+
+.container {
+    padding:10px;
+}
+
+.button {
+    color: white !important;
+}
+
+.panel {
+    display: none;
+}
+
+.panel.active {
+    display: block
+}
+
+#dynamic-demo-toolbar {
+    border-bottom: 1px solid #ddd;
+    background-color: #dddddd !important;
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+}
+
+.md-theme-default.md-toolbar.md-white {
+    background-color: white;
+    color: #767676;
+    border-bottom: 1px solid #eee;
+}
